@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int a,b;
+float c,d;
+printf("enter the integer number\n");
+scanf("%d %d",&a,&b);
+printf("enter the floating numbers\n");
+scanf("%f %f",&c,&d);
+printf("integer are %d %d",a,b);
+printf("floating numbers are %f %f",c,d);
+getch();
+return 0;
+}

@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float p,r,t,si,p1,r1,n,ci;
+clrscr();
+printf("Enter principle\t rate\t time");
+scanf("%f%f%f",&p,&r,&t);
+si=p*r*t/100;
+printf("the simple interest is %f ",si);
+printf("Enter principle\t rate\t time");
+scanf("%f%f%f",&p1,&r1,&n);
+ci=p1*pow(1+r1/100,n);
+printf("the compound interset is %f",ci);
+
+getch();
+return 0;
+}
