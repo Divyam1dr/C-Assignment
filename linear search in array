@@ -1,0 +1,27 @@
+#include<stdio.h>
+void main()
+{
+    int a[9],i,s_value;
+    printf("enter the element of matrix:");
+    for(i=0;i<9;i++)
+    {
+       
+            scanf("%d",&a[i]);
+        }
+    
+    printf("enter the number you want to search:");
+    scanf("%d",&s_value);
+    for(i=0;i<9;i++)
+    {
+        
+           if(a[i]==s_value)
+           {
+            printf("search no is at localtion [%d]",i,);
+            break;
+           
+        }
+    }if(i==9)
+    {
+        printf("search element is not there");
+    }
+}
